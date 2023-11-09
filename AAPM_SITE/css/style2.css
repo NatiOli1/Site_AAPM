@@ -1,0 +1,65 @@
+/*cabeçalho*/
+
+#cabecalho{
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10rem;
+    overflow: hidden;
+}
+  
+.item{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+.item a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+.item a:hover {
+    color: rgb(245, 33, 33);
+  }
+
+  /*tabela*/
+
+.tabela {
+    margin: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela table tr th{
+    border: 1px solid rgb(233, 219, 20);
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.tabela tr th{
+    padding: 10px 40px;
+    background-color: #a12020;
+}
+
+.tabela th img{
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/*cabeçalho*/
+
+#cabecalho{
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10rem;
+    overflow: hidden;
+}
+  
+.item{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+.item a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+.item a:hover {
+    color: rgb(245, 33, 33);
+  }
+
+/*conteudo*/
+
+.texto{
+    padding: 100px;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(237, 3, 3);
+}
+.sobreNos{
+    text-align: center;
+}
+
+/*Rodape*/
+
+.rodape {
+    padding: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    background: rgb(237, 3, 3);
+ }
+ 
+ #copyright p {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+ }
+ 
