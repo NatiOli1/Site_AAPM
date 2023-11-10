@@ -2,7 +2,7 @@
 
 #cabecalho{
     background-color: transparent;
-    padding: 5px;
+    padding: 3px;
     display: flex;
     align-items: center;
 }
@@ -40,7 +40,7 @@
   /*tabela*/
 
 .tabela {
-    margin: 10%;
+    padding: 10%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -63,3 +63,16 @@
     height: auto;
     border-radius: 50%;
 }
+
+/*Rodape*/
+
+.rodape {
+    padding: 0.5rem;
+    background: rgb(237, 3, 3);
+ }
+ 
+ #copyright p {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    text-align: center;
+ }
