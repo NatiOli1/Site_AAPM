@@ -6,24 +6,38 @@
     <title>AAPM - PRODUTOS</title>
     <link rel="shortcut icon" href="img/Logo AAPM.png" width="60" height="60"type="image/x-icon">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <header id="cabecalho">
-        <div class="logo">
-            <img src="img/Logo AAPM.png" alt="" height="auto" width="100px">
+    <nav class="navbar navbar-expand-lg bg-light border-bottom border-body">
+        <div class="container-fluid">
+            <a class="navbar-brand text-black" style="font-family: 'IM Fell Great Primer'; margin-left: 2%;" href="#">
+                <img src="img/Logo AAPM.png" alt="" height="auto" width="100px" class="d-inline-block">
+            </a>
+            <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-black"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-1.2 " id="links">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-black"  aria-current="page" a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-black" a href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" target="_blank" href="https://drive.google.com/file/d/1sgqizDfy11KhmjaXojt8Qr8kFbGrnE6f/view?pli=1">Estatuto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="eventos.html">Eventos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <nav class="links">
-            <ul class="lista" >
-                <li class="item"><a href="index.html">Home</a></li>
-                <li class="item">
-                    <a href="https://drive.google.com/file/d/1sgqizDfy11KhmjaXojt8Qr8kFbGrnE6f/view?pli=1">Estatuto</a>
-                </li>
-                <li class="item"><a href="#">Contribuição</a></li>
-                <li class="item"><a href="#">Eventos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr>
+    </nav>
+    
     <div class="tabela">
         <table>
             <tr>
@@ -257,5 +271,7 @@
             <p> &#169; 2023 - SENAI AAPM - Todos os direitos reservados-Segurança e privacidade </p>
         </div>
         </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
